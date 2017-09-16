@@ -6,9 +6,6 @@ var enemyList=new Array();
 var highlightedList=new Array();
 var clickedDiv;
 
-
-$("img").addClass("img-responsive");
-
 function searchIsEnemy(parentId){
     for(var i in enemyList){
         if(enemyList[i]=="#"+parentId){
